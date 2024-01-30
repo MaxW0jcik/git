@@ -1,0 +1,60 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 30px;
+    background-color: #f6d365;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+form {
+    margin-top: 40px;
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 3px solid #2c3e50;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 18px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+p {
+    color: #3498db;
+    margin-top: 20px;
+    text-align: center;
+}

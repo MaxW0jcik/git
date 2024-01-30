@@ -1,0 +1,70 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    color: #ffcc00;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 8px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 3px solid #ffcc00;
+    padding: 15px;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}
+
+th {
+    background-color: #444;
+}
+
+.action-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.edit-link, .delete-link, .add-user-link {
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-link {
+    background-color: #009688;
+    color: #fff;
+}
+
+.delete-link {
+    background-color: #e74c3c;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.add-user-link {
+    background-color: #3498db;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.add-user-link:hover {
+    background-color: #2ecc71;
+}
